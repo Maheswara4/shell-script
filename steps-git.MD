@@ -18,3 +18,7 @@ git push -u origin main
 '''
 
 **naming convention: use small case with Hyphons(-). No spaces**
+
+git add . ; git commit -m "some massage";git push -u origin main
+
+note : here is dot means all files to add
