@@ -17,7 +17,7 @@ then
     exit 1
 else
     echo "you are super user"
-if
+fi
 
 
 dnf install mysql -y
