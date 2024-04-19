@@ -3,12 +3,12 @@
 userid=$(id -u)
 
 VALIDATE(){
-if [$1 -eq 0]
+if [ $1 -eq 0]
 then
-    echo "$2 install failure"
+    echo "$2 ...failure"
     exit 1
 else
-    echo "$2 install success"
+    echo "$2 ...success"
 fi
 }
 
